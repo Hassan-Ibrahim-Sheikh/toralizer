@@ -17,7 +17,7 @@ chmod 744 toralize
 ``` bash
 ./toralize curl example.com
 ```
-## Macos
+### MacOS
 Even though some tweakes were made to the code (like replacing LD\_PRELOAD with DYLD\_INSERT\_LIBRARIES), and turning off SIP, it didn't work on my m2 mac-mini.
   
 
