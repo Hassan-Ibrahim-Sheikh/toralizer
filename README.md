@@ -1,6 +1,6 @@
 # Toralizer
 **Toralizer** is a light-weight library forlinux tat intercepts outgoing TCP connections and rerouts them through a tor proxy server.
-It uses `LD_PRELOAD` ot hijack the `connect()` system call and replaces it with custom logic that communicates with the proxy.
+It uses `LD_PRELOAD` to hijack the `connect()` system call and replaces it with custom logic that communicates with the proxy.
 
 It uses the SOCKS4 protocol to communicate and connect with the proxy.
 ## Compilation and Usage
