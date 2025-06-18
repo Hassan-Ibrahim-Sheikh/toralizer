@@ -9,6 +9,11 @@ It uses the SOCKS4 protocol to communicate and connect with the proxy.
 ``` bash
 make
 ```
+- Make sure you have tor installed and running.
+``` bash
+sudo apt install tor
+tor &
+```
 - Give the `toralize` bash script the permissions.
 ``` bash
 chmod 744 toralize
